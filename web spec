@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Muntasir Mamun - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        nav {
+            background: #444;
+            padding: 1rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Syed Muntasir Mamun</h1>
+        <p>Diplomat | Innovator | Author | Academic</p>
+    </header>
+
+    <nav>
+        <a href="#highlights">Highlights</a>
+        <a href="#experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="highlights">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Author of <a href="https://www.amazon.com/author/syedmuntasir" target="_blank">"Blockchain: Gaming & Collusion - A Reading in Political Economy"</a></li>
+                <li>Setting up the first Neural Network (AI) Lab in MOFA, Bangladesh</li>
+                <li>20+ years in Foreign Service and Diplomacy, specializing in South and East Asian politics and political economy</li>
+                <li>4 years in banking, foreign exchange, corporate finance, teaching, and university management</li>
+                <li>Expert in High Profile Client Development, National Integrated Strategy, and Public-Private Partnerships</li>
+                <li>Creating Minimum Viable Innovation Engines (MVIE) under University of Oxford’s TMO Framework</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <h3>Ministry of Foreign Affairs, Dhaka</h3>
+            <p><strong>Chief Innovation Officer & Director General (International Trade, Investment & Technology Wing)</strong> | Jul 2021 - Present</p>
+            <ul>
+                <li>Established the International Trade, Investment and Technology Wing with AI-led innovations</li>
+                <li>Hosted the first Economic Diplomacy Week (2022) and Bangladesh Business Summit (2023)</li>
+                <li>Launched the e-Quality Centre for Zero Digital Divide at UNGA 2023</li>
+            </ul>
+            <p><strong>Director General (ICT Wing)</strong> | Jul 2021 - Dec 2024</p>
+            <ul>
+                <li>Digital transformation of MOFA and 81 missions in 30 months for under $30k</li>
+                <li>Introduced AI Neural Network Challenge Fund 2023</li>
+                <li>Deployed Centralized Appointment and Tracking Systems (CSAT/CATs)</li>
+            </ul>
+            <!-- Add more roles as needed -->
+            <h3>University of Oxford</h3>
+            <p><strong>Visiting Speaker & Academic Advisor</strong> | Feb 2018 - Present</p>
+            <ul>
+                <li>Visiting Speaker at China Center, St. Hugh’s College</li>
+                <li>Co-Lead at Saïd Business School for MVIE development</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>University of Oxford, Saïd Business School</strong> | 2017-2018</p>
+            <ul>
+                <li>Post-Graduate Studies in Strategy and Innovation (TMO Framework)</li>
+            </ul>
+            <p><strong>University of Dhaka, Institute of Business Administration</strong> | 2012-2016</p>
+            <ul>
+                <li>PhD in Operations-Based Value Chain Framework</li>
+            </ul>
+            <p><strong>NALSAR University, Hyderabad</strong> | 2008-2009</p>
+            <ul>
+                <li>Post-Graduate Diploma in International Humanitarian Law</li>
+            </ul>
+            <!-- Add more education entries -->
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>Books:</strong> "Blockchains: Gaming & Collusion – A Study in Political Economy" (2021) - <a href="https://www.amazon.com/dp/B09D8QQQ1G" target="_blank">Amazon</a></li>
+                <li><strong>Articles:</strong> "AI, Africa and Economic Pathways for 2025" (2025) - <a href="https://www.academia.edu/126792522" target="_blank">Academia</a></li>
+                <li>"Embracing Digital Frontiers: Economic Diplomacy and Services in Bangladesh" (2024) - <a href="https://www.academia.edu/121129485" target="_blank">Academia</a></li>
+                <!-- Add more publications -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: [Your Email Here]</p>
+            <p>LinkedIn: [Your LinkedIn Profile]</p>
+            <p>Amazon Author Page: <a href="https://www.amazon.com/author/syedmuntasir" target="_blank">Syed Muntasir</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Syed Muntasir Mamun. All rights reserved.</p>
+    </footer>
+</body>
+</html>
